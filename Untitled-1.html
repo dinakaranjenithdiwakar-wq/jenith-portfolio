@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Jenithdiwakar DJ Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+
+background:
+linear-gradient(
+135deg,
+#050816,
+#09142c,
+#000814
+);
+
+min-height:100vh;
+
+color:white;
+
+}
+
+.container{
+
+max-width:1200px;
+
+margin:auto;
+
+padding:60px;
+
+}
+
+.hero{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:60px;
+
+animation:fade 1.5s;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:
+translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:
+translateY(0);
+
+}
+
+}
+
+.profile{
+
+width:250px;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:5px solid cyan;
+
+box-shadow:
+0 0 40px cyan;
+
+}
+
+.content{
+
+max-width:600px;
+
+}
+
+h1{
+
+font-size:55px;
+
+color:#00d4ff;
+
+}
+
+.subtitle{
+
+font-size:22px;
+
+margin-top:10px;
+
+}
+
+.card{
+
+margin-top:40px;
+
+padding:30px;
+
+border-radius:20px;
+
+background:
+rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+}
+
+.section{
+
+font-size:28px;
+
+margin-bottom:20px;
+
+color:#00d4ff;
+
+}
+
+.skill{
+
+display:inline-block;
+
+padding:10px 18px;
+
+margin:8px;
+
+background:#00d4ff;
+
+color:black;
+
+border-radius:30px;
+
+font-weight:bold;
+
+}
+
+.project{
+
+margin-top:10px;
+
+padding:15px;
+
+background:#111d39;
+
+border-radius:10px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:25px;
+
+padding:15px 30px;
+
+background:#0077B5;
+
+border-radius:40px;
+
+color:white;
+
+text-decoration:none;
+
+}
+
+.btn:hover{
+
+transform:scale(1.05);
+
+}
+
+@media(max-width:800px){
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<img src="./myphoto.png" class="myprofile">
+
+<div class="content">
+
+<h1>JENITHDIWAKAR DJ</h1>
+
+<div class="subtitle">
+
+Electrical & Electronics Engineer
+
+</div>
+
+<br>
+
+<p>
+
+Embedded Systems Enthusiast • Raspberry Pi • IoT • Final Year Student • Student President of EEE Department • Campus Ambassador of Unlox Academy • Mini Project Developer 
+
+</p>
+
+<a
+class="btn"
+href="https://www.linkedin.com/in/jenithdiwakar-dj-09902b396/"
+target="_blank">
+
+🔗 LinkedIn
+
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="section">
+
+ABOUT ME
+
+</div>
+
+<p>
+
+Final Year EEE student passionate about Embedded Systems, IoT and real world engineering projects.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="section">
+
+SKILLS
+
+</div>
+
+<span class="skill">Embedded C</span>
+
+<span class="skill">Java</span>
+
+<span class="skill">Raspberry Pi</span>
+
+<span class="skill">IoT</span>
+
+<span class="skill">Mini Project Development</span>
+
+<span class="skill">Department student president</span>
+
+</div>
+
+<div class="card">
+
+<div class="section">
+
+PROJECTS
+
+</div>
+
+<div class="project">
+
+🔥 Fire Fighting Robot
+
+</div>
+
+<div class="project">
+
+⚡ Raspberry Pi Automation
+
+</div>
+
+</div class="project">
+
+
+</div>
+
+</body>
+
+</html>
